@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroShoppingService.Auth.API", "MicroShoppingService.Auth.API\MicroShoppingService.Auth.API.csproj", "{10E779D7-D195-4281-BF72-A6BE1CE0ABD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroShoppingService.Auth.API", "MicroShoppingService.Auth.API\MicroShoppingService.Auth.API.csproj", "{10E779D7-D195-4281-BF72-A6BE1CE0ABD0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3472AB60-F93A-4104-A06C-6F852489ED40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{10E779D7-D195-4281-BF72-A6BE1CE0ABD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10E779D7-D195-4281-BF72-A6BE1CE0ABD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10E779D7-D195-4281-BF72-A6BE1CE0ABD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3472AB60-F93A-4104-A06C-6F852489ED40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3472AB60-F93A-4104-A06C-6F852489ED40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3472AB60-F93A-4104-A06C-6F852489ED40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3472AB60-F93A-4104-A06C-6F852489ED40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
